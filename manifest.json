@@ -1,0 +1,14 @@
+{
+    "name": "ClassTabs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": ["tabs", "activeTab", "storage"],
+    "action": {
+        "default_title": "SMASNUG"
+    }    
+
+}
